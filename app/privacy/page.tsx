@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function PrivacyPage() {
   return (
     <main className="shell">
-      <header className="topline"><Link href="/">← FOOL MOON</Link><span>v0.1.0 LOCAL</span></header>
+      <header className="topline"><Link href="/">← FOOL MOON</Link><span>v0.1.1 LOCAL</span></header>
       <h2 className="section-title">Privacy boundary</h2>
       <div className="report">YOUR PHOTOGRAPH DOES NOT LEAVE THIS DEVICE.</div>
       <p className="subtle">Exposure 0 decodes, resizes, analyzes, marks, and exports your selected image in the browser. The exported copy is redrawn through Canvas, removing the original file’s EXIF and GPS metadata.</p>
