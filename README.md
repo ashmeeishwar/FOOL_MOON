@@ -1,6 +1,6 @@
 # FOOL MOON — Exposure 0
 
-`v0.1.0-local` is the fully client-side first release of the FOOL MOON companion scanner.
+`v0.1.1-local` is the fully client-side FOOL MOON companion scanner.
 
 ## Included
 
