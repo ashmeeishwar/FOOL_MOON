@@ -98,13 +98,16 @@ export default function ScanPage() {
             <button className="secondary" onClick={() => downloadDataUrl(result.storyDataUrl, `fool-moon-story-${result.shortId}.png`)}>Save Story Card</button>
             <button className="secondary" onClick={() => { setResult(null); setFile(null); if (preview) URL.revokeObjectURL(preview); setPreview(""); window.scrollTo({ top: 0, behavior: "smooth" }); }}>New Exposure</button>
           </div>
-          <p className="truth">This is a fictional paranormal interpretation built on real local pixel analysis. It is not scientific evidence of paranormal activity.</p>
         </section>
       )}
 
       <footer className="legal">
-        This release runs entirely on your device. No account. No upload. No archive submission.
-        <br /><br /><Link href="/privacy">Privacy</Link>
+        <p className="legal-primary">This release runs entirely on your device. No account. No upload. No archive submission.</p>
+        <p className="fine-print">This is a fictional paranormal interpretation built on real local pixel analysis. It is not scientific evidence of paranormal activity.</p>
+        <div className="legal-bottom">
+          <Link href="/privacy">Privacy</Link>
+          <span className="maker">The Fool of The Moon</span>
+        </div>
       </footer>
     </main>
   );
